@@ -1,0 +1,282 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #989898;
+}
+
+/* Header */
+div#header {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  height: 100px;
+  background: rgb(71, 71, 71);
+  color: #fff;
+}
+
+div#headerLeft img {
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 130px;
+}
+
+div#search input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  align-items: center;
+  background: #fff;
+  border: 0;
+  width: 25em;
+  margin-top: 33px;
+  padding: 8px;
+}
+
+div#search input[type="submit"] {
+  display: none;
+}
+
+div#headerRight {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  margin-left: 50px;
+}
+
+div.topRight img {
+  display: block;
+  margin: 0 auto;
+  width: 35px;
+  margin-top: 30px;
+}
+
+div#topRight img:hover {
+  cursor: pointer;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: black;
+}
+
+nav a {
+  width: 33%;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #999999;
+}
+
+/* Main Design */
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.mainLeft {
+  width: 20%;
+  background: #999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marcas {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.marcas p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  justify-items: center;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 11px 0;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.marcas a {
+  padding: 7px 0;
+  width: 100%;
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.mainLeft a:hover {
+  background: #747474;
+}
+
+.mainRight {
+  width: 100%;
+  background: #999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.location-bar {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px 0;
+  width: 95%;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+p.location-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.rightItems {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.colunasCarro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Carros */
+.carro-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  font-size: 18px;
+}
+
+#imagem {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px 5px 0 0;
+  width: 250px;
+  height: 180px;
+}
+
+#imagem img {
+  border-radius: 5px 5px 0 0;
+  width: 250px;
+  height: 180px;
+}
+
+.car-box-bottom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 0 0 5px 5px;
+}
+
+#marca {
+  display: flex;
+  justify-content: center;
+  height: 25%;
+}
+
+#likes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#likes img {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+}
+
+.container-car {
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+}
+
+.container-car a {
+  text-decoration: none;
+  color: #000;
+}
+
+.index-car {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+
+/* Details carro */
+.detailsCarro {
+  width: 100%;
+}
+
+.containerCarro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fotoCarro {
+  width: 500px;
+}
+
+.fotoCarro img {
+  max-width: 500px;
+}
+
+.infoCarro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.infoCarro a {
+  text-decoration: none;
+  color: #000;
+}
+
+#adicionarFavorito {
+  background: #fff;
+  width: 175px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+#adicionarFavorito:hover {
+  background: #474747;
+}
+
+#adicionarFavorito img {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+}
